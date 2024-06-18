@@ -1,0 +1,8 @@
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.csproj.AssemblyReference.cache
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.AssemblyInfoInputs.cache
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.AssemblyInfo.cs
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.csproj.CoreCompileInputs.cache
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.MvcApplicationPartsAssemblyInfo.cache
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.RazorAssemblyInfo.cache
+/Users/nastyaergenova/Desktop/ASP.NET/lesson1/lesson1/obj/Debug/net7.0/lesson1.RazorAssemblyInfo.cs

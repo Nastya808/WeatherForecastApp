@@ -1,0 +1,41 @@
+﻿@page
+@model WeatherForecastApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Weather Forecast";
+}
+
+<h2>Weather Forecast</h2>
+
+<form method="get">
+    <input type="text" name="City" placeholder="Enter city name" required />
+    <button type="submit">Get Weather</button>
+</form>
+
+@if (Model.Weather != null)
+{
+    <div>
+        <h2>Current Weather</h2>
+        <p>City: @Model.Weather.City</p>
+        <p>Date: @Model.Weather.Date</p>
+        <p>Description: @Model.Weather.Description</p>
+        <p><img src="@Model.Weather.IconUrl" alt="weather icon" /></p>
+        <p>Temperature: @Model.Weather.Temperature &deg;C</p>
+        <p>Min Temperature: @Model.Weather.MinTemperature &deg;C</p>
+        <p>Max Temperature: @Model.Weather.MaxTemperature &deg;C</p>
+        <p>Wind Speed: @Model.Weather.WindSpeed m/s</p>
+    </div>
+
+    <div>
+        <h2>Hourly Forecast</h2>
+        @foreach (var forecast in Model.Weather.HourlyForecasts)
+        {
+            <div>
+                <p>Time: @forecast.Time</p>
+                <p><img src="@forecast.IconUrl" alt="weather icon" /></p>
+                <p>Description: @forecast.Description</p>
+                <p>Temperature: @forecast.Temperature &deg;C</p>
+                <p>Wind Speed: @forecast.WindSpeed m/s</p>
+            </div>
+        }
+    </div>
+}
